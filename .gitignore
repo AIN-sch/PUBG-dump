@@ -1,0 +1,36 @@
+# 派生文件不入库
+
+tsl_fixed.exe
+tsl_raw.bin
+*.xz
+!*.xz.part.*
+
+# IDA
+*.i64
+*.idb
+*.id0
+*.id1
+*.id2
+*.nam
+*.til
+
+# 编译产物
+*.obj
+*.pdb
+*.ilk
+*.sys
+
+# 临时
+temp/
+*.tmp
+*.bak*
+~$*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 编辑器
+.vscode/
+.idea/
